@@ -1,0 +1,21 @@
+/* FILE: package.json
+ * PURPOSE: Project information and dependencies for Decoded
+ * AUTHOR: Jay Vana <jsvana@mtu.edu>
+ */
+
+{
+	"name": "Decoded",
+	"description": "A basic online code editing solution",
+	"author": "Jay Vana <jsvana@mtu.edu>",
+	"version": "0.0.4",
+	"dependencies": {
+		"express": "2.5.2",
+		"mongoose": "2.4.8",
+		"connect": "1.8.5",
+		"connect-assets": "2.1.6",
+		"jade": "0.19.0",
+		"stylus": "0.21.2",
+		"nib": "0.3.1",
+		"colors": "0.6.0-1"
+	}
+}

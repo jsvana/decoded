@@ -1,0 +1,103 @@
+//- FILE: user.jade
+//- PURPOSE: Structure of main user page
+//- AUTHOR: Jay Vana <jsvana@mtu.edu>
+
+header.user
+	h1(style="color:#fff; padding-top:20px")
+		span(style="color:#5d6774") { 
+		span "user" 
+		span(style="color:#5d6774") :  
+		span "#{user}" 
+		span(style="color:#5d6774") }
+	span#line1(style="position:absolute; border-bottom:3px solid #0088d6")
+	span#line2(style="position:absolute; border-bottom:3px solid #0088d6")
+	span#line3(style="position:absolute; border-bottom:3px solid #0088d6")
+	span#line4(style="position:absolute; border-right:3px solid #0088d6")
+	span#line5(style="position:absolute; border-right:3px solid #0088d6")
+	span#line6(style="position:absolute; border-right:3px solid #0088d6")
+	span#logout(style="position:absolute; font-size:1.5em")
+		a(href="/logout") Logout
+
+//- Project sidebar
+div#projects.projects
+	div.projectTop
+		span(style="margin:20px;") My Projects
+	- projects.forEach(function(project){
+		div.project
+			a.editProject.x(href="#", style="float:left", data-id="#{project.id}", data-project="#{project.name}", data-owner="#{project.owner}", data-public="#{project.public}", data-allowed="#{project.allowed}")
+				img(src="/images/pencil.png")
+			div(style="margin-left:40px")
+				h2
+					a.selectProject(href="#", data-project="#{project.name}", data-owner="#{project.owner}") #{project.name}
+				span owned by 
+					a(href="/user/#{project.owner}") #{project.owner}
+	- })
+	div.addProject
+		h2
+			a#openAddProject(href="#")
+				img(src="/images/plus.png", style="float:left", width="40")
+				span(style="padding-bottom:6px") Create Project
+
+//- Add project window
+div#addProject
+	div(style="text-align:center; width:100%; margin-bottom:20px")
+		a.x#closeAddProject(href="#", style="float:left")
+			span(style="color:#5d6774") X
+		span New Project
+	span(style="font-size:1.6em") Name
+	span(style="font-size:1.3em; color:#aaa;") &nbsp;(required)
+	br
+	input#projectName.text
+	br
+	button#addView.toggle(style="margin-bottom:10px") Off
+	span(style="margin-left:10px; font-size:1.5em") Public
+	br
+	span(style="font-size:1.6em;") Allowed Users
+	span(style="font-size:1.3em; color:#aaa;") &nbsp;(comma-separated)
+	br
+	input#addProjectAllowed.text
+	br
+	button#addProjectSubmit.button(style="float:left; margin-top:15px", data-owner="#{user}") Add
+
+//- Project window
+div#project
+	div(style="text-align:center; width:100%")
+		a.x#closeProject(href="#", style="float:left")
+			span(style="color:#5d6774") X
+		span#projectName
+	
+	div#projectFiles(style="text-align:left; width:100%; margin-top:20px")
+
+//- Edit project window
+div#editProject
+	div(style="text-align:center; width:100%")
+		a.x#closeEditProject(href="#", style="float:left")
+			span(style="color:#5d6774") X
+		span Edit Project
+	
+	span(style="font-size:1.6em") Name
+	span(style="font-size:1.3em; color:#aaa;") &nbsp;(required)
+	br
+	input#editProjectName.text
+	br
+	span(style) Project owned by 
+	a#editProjectOwner(href="/user/")
+	br
+	button#editProjectView.toggle(style="margin-top:10px; margin-bottom:10px")
+	span(style="margin-left:10px; font-size:1.5em") Public
+	br
+	span(style="font-size:1.6em;") Allowed Users
+	span(style="font-size:1.3em; color:#aaa;") &nbsp;(comma-separated)
+	br
+	input#editProjectAllowed.text
+	br
+	button#editProjectSubmit.button(style="float:left; margin-top:15px", data-owner="#{user}") Submit
+
+include dialog
+
+!= js('jquery.1.7.1')
+!= js('user')
+
+//- Optional javascript include
+- if(typeof javascript !== 'undefined')
+	script #{javascript}

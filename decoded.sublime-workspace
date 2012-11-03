@@ -1,0 +1,808 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "public/js/user.coffee",
+			"settings":
+			{
+				"buffer_size": 8537,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/dialog.jade",
+			"settings":
+			{
+				"buffer_size": 362,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "server.coffee",
+			"settings":
+			{
+				"buffer_size": 5341,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/layout.jade",
+			"settings":
+			{
+				"buffer_size": 239,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/login.jade",
+			"settings":
+			{
+				"buffer_size": 773,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/user.jade",
+			"settings":
+			{
+				"buffer_size": 2517,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/404.jade",
+			"settings":
+			{
+				"buffer_size": 135,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/404.styl",
+			"settings":
+			{
+				"buffer_size": 383,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/main.styl",
+			"settings":
+			{
+				"buffer_size": 8003,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "package.json",
+			"settings":
+			{
+				"buffer_size": 465,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config.js",
+			"settings":
+			{
+				"buffer_size": 330,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models/models.js",
+			"settings":
+			{
+				"buffer_size": 467,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "controllers/mongo.js",
+			"settings":
+			{
+				"buffer_size": 433,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/CoffeeScript.sublime-build",
+	"command_palette":
+	{
+		"height": 102.0,
+		"selected_items":
+		[
+			[
+				"hg",
+				"SublimeHg: Hg"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				":q",
+				"Set Syntax: SQL"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Package Control: Add Repository"
+			],
+			[
+				"pac",
+				"Package Control: Add Repository"
+			],
+			[
+				":",
+				":w - Save"
+			],
+			[
+				":W",
+				":w - Save"
+			],
+			[
+				":e",
+				":$ - EOF"
+			],
+			[
+				":we",
+				":w - Save"
+			],
+			[
+				"Package Con",
+				"Package Control: Add Repository"
+			],
+			[
+				":j",
+				"Set Syntax: JavaScript"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 115.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jsvana/Library/Application Support/Sublime Text 2/Packages/User/CoffeeScript.sublime-build",
+		"/Users/jsvana/decoded/public/js/user.coffee",
+		"/Users/jsvana/decoded/mongo.js",
+		"/Users/jsvana/decoded/server.js",
+		"/Users/jsvana/decoded/config.js",
+		"/Users/jsvana/decoded/package.json",
+		"/Users/jsvana/decoded/public/css/styles.styl",
+		"/Users/jsvana/decoded/decoded.sublime-project",
+		"/Users/jsvana/Downloads/h5bp-html5-boilerplate-007754e/css/style.css",
+		"/Users/jsvana/decoded/views/stylesheets/styles.styl",
+		"/Users/jsvana/decoded/public/coffeescript/user.coffee",
+		"/Users/jsvana/decoded/views/user.jade",
+		"/Users/jsvana/coffee/decoded/config.js",
+		"/Users/jsvana/coffee/decoded/views/stylesheets/styles.styl",
+		"/Users/jsvana/coffee/decoded/views/stylesheets/styles.styl.old",
+		"/Users/jsvana/coffee/decoded/views/stylesheets/styles.css",
+		"/Users/jsvana/coffee/decoded/views/login.jade",
+		"/Users/jsvana/coffee/decoded/views/user.jade",
+		"/Users/jsvana/coffee/decoded/views/layout.jade",
+		"/Users/jsvana/coffee/decoded/server.js",
+		"/Users/jsvana/coffee/decoded/server.coffee",
+		"/Users/jsvana/coffee/structures.coffee",
+		"/Users/jsvana/coffee/decoded/user.jade",
+		"/Users/jsvana/coffee/decoded/login.jade",
+		"/Users/jsvana/coffee/decoded/views/stylesheets/styletest.styl",
+		"/Users/jsvana/coffee/decoded/views/stylesheets/styles.styl.css",
+		"/Users/jsvana/coffee/decoded/styles.css",
+		"/Users/jsvana/coffee/decoded/styletest.styl",
+		"/Users/jsvana/coffee/decoded/login",
+		"/Users/jsvana/coffee/decoded/styletest.stylus",
+		"/Users/jsvana/coffee/decoded/styletest.stylus.sass",
+		"/Users/jsvana/coffee/decoded/styletest.sass",
+		"/Users/jsvana/coffee/server.coffee",
+		"/Users/jsvana/coffee/server.js",
+		"/Users/jsvana/coffee/front.coffee",
+		"/Users/jsvana/coffee/client.html",
+		"/Users/jsvana/coffee/decoded/login.jade.haml",
+		"/Users/jsvana/coffee/decoded/layout.haml",
+		"/Users/jsvana/coffee/decoded/server.2.coffee",
+		"/Users/jsvana/coffee/decoded/server.coffee.old",
+		"/Users/jsvana/coffee/decoded/lib/http-cookie.js",
+		"/Users/jsvana/coffee/front.js",
+		"/Users/jsvana/coffee/structures.js",
+		"/Users/jsvana/coffee/server.coffee.js",
+		"/Users/jsvana/test.coffee",
+		"/Users/jsvana/MoreForChase.php",
+		"/Users/jsvana/ForMary.html",
+		"/Users/jsvana/forChaseCauseHesABitch.js",
+		"/Volumes/testserv.itoxygen.com/update.php",
+		"/Volumes/testserv.itoxygen.com/mobile/index.html",
+		"/Volumes/testserv.itoxygen.com/index.html",
+		"/Volumes/testserv.itoxygen.com/admin.php",
+		"/Users/jsvana/ethics/index.html",
+		"/Users/jsvana/Documents/Code/Perl/map/map.pl",
+		"/Volumes/testserv.itoxygen.com/test.sql",
+		"/Users/jsvana/ethics/README.txt",
+		"/Volumes/testserv.itoxygen.com/LeaderBoard.php",
+		"/Volumes/jsvana.com/srv/http/decoded/lib/DataCoded.js",
+		"/Volumes/jsvana.com/srv/http/decoded/lib/BiblioCoded.js",
+		"/Volumes/jsvana.com/srv/http/decoded/lib/ColorCoded.js",
+		"/Volumes/jsvana.com/srv/http/decoded/lib/HardlyCoded.js",
+		"/Volumes/jsvana.com/srv/http/decoded/lib/lang.js",
+		"/Volumes/jsvana.com/srv/http/decoded/index.html",
+		"/Volumes/hephaestus/srv/http/decoded/index.html",
+		"/Users/jsvana/Documents/Websites/JaysRamblingEmporium2/RPG/v2/RPG.php",
+		"/Users/jsvana/decoded/index.html",
+		"/Users/jsvana/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/jsvana/Library/Application Support/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/Users/jsvana/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/jsvana/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/Users/jsvana/decoded/index.php",
+		"/Users/jsvana/Downloads/h5bp-html5-boilerplate-007754e/index.html",
+		"/Users/jsvana/fmt.pl",
+		"/Users/jsvana/Documents/Websites/JaysRamblingEmporium/Content/Styles.css",
+		"/Users/jsvana/Documents/Websites/JaysRamblingEmporium/index.php",
+		"/Volumes/jsvana.com/home/jsvana/node/back.coffee",
+		"/Volumes/jsvana.com/home/jsvana/node/b.coffee",
+		"/Volumes/jsvana.com/srv/http/ex.2.html",
+		"/Volumes/hephaestus/srv/http/index.html",
+		"/Volumes/hephaestus/home/jsvana/node/run.js",
+		"/Users/jsvana/encoded/graphics.c",
+		"/Users/jsvana/index.html",
+		"/Volumes/BOOTCAMP/Users/Jay/Documents/Visual Studio 2010/Projects/BrickEvader/BrickEvader/BrickEvader/Enemy.cs",
+		"/Volumes/BOOTCAMP/Users/Jay/Documents/Visual Studio 2010/Projects/BrickEvader/BrickEvader/BrickEvader/Brick.cs",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/defines.h",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/encoded.c",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/error.c",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/error.h",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/graphics.c",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/graphics.h",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/helper.c",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/helper.h",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/input.c",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/input.h",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/lib.c",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/lib.h",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/Makefile",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/structs.h",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/charsets/generichero.png",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/maps/map2.c",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/maps/map1.c",
+		"/Users/jsvana/Downloads/belak-encoded-5656915a339c/maps/Makefile",
+		"/Users/jsvana/Desktop/index.php",
+		"/Users/jsvana/Desktop/test.c",
+		"/Users/jsvana/Library/Application Support/Sublime Text 2/Packages/Default/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"show()",
+			"hide()",
+			"console",
+			"  ",
+			"valid",
+			"font",
+			"    ",
+			":",
+			"\\)",
+			"new Array\\(",
+			"new Array(",
+			"\\((\\d+?),('.*?'),(-?[\\d\\.]+?)\\),",
+			"\\((\\d+?),('.*?'),(-?[\\d\\.]+?),(-?[\\d\\.]+?)\\),",
+			"\\((\\d+?),('.*?'),(-?[\\d\\.]+?),(-?[\\d\\.]+?),.*",
+			"'.*?'",
+			"/'.*?'/",
+			"alert",
+			"asdf",
+			"terminal.console",
+			"this.doubleQuote",
+			"this.inQuote",
+			"this.inComment",
+			");",
+			":",
+			"' '.getHeight",
+			"getHeight",
+			"return false",
+			"number",
+			"alert",
+			"removeAt",
+			"append",
+			"pos",
+			"yPos",
+			"j",
+			"char",
+			"world"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"slideDown()",
+			"slideUp()",
+			"	",
+			" ",
+			"]",
+			"[",
+			"UPDATE stage1 SET waypointId='$1', waypointName=$2 ORDER BY (ABS(stage1.distance-'$3')) ASC LIMIT 1;",
+			"UPDATE stage1 SET waypointId='$1', waypointName=$2 ORDER BY (ABS(stage1.distance-'$3')) DESC LIMIT 1;",
+			"UPDATE stage1 SET waypointId='$1', waypointName=$2 ORDER BY truncate((degrees(acos(sin(radians(`lat`)) * sin(radians('$4')) + cos(radians(`lat`)) * cos(radians('$4')) * cos(radians(`long`-'$3')))) * 69.09), 1) DESC LIMIT 1",
+			"UPDATE stage1 SET waypointId='$1', waypointName=$2 ORDER BY truncate((degrees(acos(sin(radians(`lat`)) * sin(radians('$4')) + cos(radians(`lat`)) * cos(radians('$4')) * cos(radians(`lon`-'$3')))) * 69.09), 1) DESC LIMIT 1",
+			"UPDATE stage1 SET waypointId='$1', waypointName='$2' ORDER BY truncate((degrees(acos(sin(radians(`lat`)) * sin(radians('$4')) + cos(radians(`lat`)) * cos(radians('$4')) * cos(radians(`lon`-'$3')))) * 69.09), 1) DESC LIMIT 1",
+			"UPDATE stage1 SET waypointId=$1, waypointName=$2 ORDER BY truncate((degrees(acos(sin(radians(`lat`)) * sin(radians($4)) + cos(radians(`lat`)) * cos(radians($4)) * cos(radians(`lon`-$3)))) * 69.09), 1) DESC LIMIT 1",
+			"($1,$2,$3,$4),",
+			"UPDATE `stage1` SET `waypointId`=$1, `waypointName`=$2 WHERE `lat`=$3 AND `long`=$4;",
+			"UPDATE `stage1` SET waypointId=$1, waypointName=$2 WHERE lat=$3 AND long=$4;",
+			"terminal.cmd",
+			"doubleQuote",
+			"inQuote",
+			"inComment",
+			"'hy'.getHeight",
+			"break",
+			"hero"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "public/js/user.coffee",
+					"settings":
+					{
+						"buffer_size": 8537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/dialog.jade",
+					"settings":
+					{
+						"buffer_size": 362,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								120,
+								120
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "server.coffee",
+					"settings":
+					{
+						"buffer_size": 5341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1446,
+								1446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/CoffeeScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/layout.jade",
+					"settings":
+					{
+						"buffer_size": 239,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								106,
+								106
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "views/login.jade",
+					"settings":
+					{
+						"buffer_size": 773,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "views/user.jade",
+					"settings":
+					{
+						"buffer_size": 2517,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								928,
+								928
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 22.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "views/404.jade",
+					"settings":
+					{
+						"buffer_size": 135,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/css/404.styl",
+					"settings":
+					{
+						"buffer_size": 383,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								95,
+								95
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Syntaxes/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/css/main.styl",
+					"settings":
+					{
+						"buffer_size": 8003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5062,
+								5062
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Stylus/Syntaxes/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "package.json",
+					"settings":
+					{
+						"buffer_size": 465,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "config.js",
+					"settings":
+					{
+						"buffer_size": 330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "models/models.js",
+					"settings":
+					{
+						"buffer_size": 467,
+						"regions":
+						{
+							"bookmark_o":
+							{
+								"flags": 144,
+								"regions":
+								[
+									[
+										467,
+										467
+									]
+								]
+							}
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "controllers/mongo.js",
+					"settings":
+					{
+						"buffer_size": 433,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								107,
+								107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 27.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true
+}

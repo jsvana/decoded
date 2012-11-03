@@ -1,0 +1,14 @@
+//- FILE: layout.jade
+//- PURPOSE: Base structure for all .jade files
+//- AUTHOR: Jay Vana <jsvana@mtu.edu>
+
+!!! 5
+html
+	head
+		title #{title}
+
+		- if(typeof styles === 'undefined')
+			!= css('main')
+		- else
+			!= css(styles)
+	body!= body

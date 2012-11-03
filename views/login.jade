@@ -1,0 +1,21 @@
+//- FILE: login.jade
+//- PURPOSE: Structure for login page
+//- AUTHOR: Jay Vana <jsvana@mtu.edu>
+
+container
+    header(style="text-align:center;")
+        p(style="font-size:2em;") Welcome to Decoded.
+
+    #main
+        form(method="post", action="/login/check")
+            fieldset
+                label(for="username") Username
+                input#username.text(type="text", name="username", required, autofocus)
+                label(for="password") Password
+                input#password.text(type="password", name="password", required)
+            fieldset
+                span.password
+                    a(href="#") Forgot Password
+                button.button(type="submit", style="float:right; margin-right:-2px") Login
+        - if(!success)
+            span.failure Incorrect username or password
